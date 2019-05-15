@@ -1,0 +1,110 @@
+
+> real-world-nuxt@1.0.0 dev /home/dev/APP/vue-mastery/real-world-nuxt
+> nuxt
+
+13:10:51 ℹ Listening on: http://192.168.111.252:3000/
+13:10:52 ℹ Preparing project for development
+13:10:52 ℹ Initial build may take a while
+13:10:52 ✔ Builder initialized
+13:10:52 ✔ Nuxt files generated
+webpackbar 13:10:55 ℹ Compiling Client
+webpackbar 13:10:55 ℹ Compiling Server
+webpackbar 13:11:01 ✔ Server: Compiled successfully in 5.87s
+webpackbar 13:11:02 ✔ Client: Compiled successfully in 6.63s
+13:11:02 ℹ Waiting for file changes
+13:11:02 ℹ Memory usage: 188 MB (RSS: 258 MB)
+13:11:17 ↻ Updated pages/index.vue
+webpackbar 13:11:17 ℹ Compiling Server
+webpackbar 13:11:17 ℹ Compiling Client
+webpackbar 13:11:18 ✔ Server: Compiled successfully in 775.53ms
+webpackbar 13:11:18 ✔ Client: Compiled successfully in 761.93ms
+13:11:23 ↻ Updated pages/index.vue
+webpackbar 13:11:23 ℹ Compiling Server
+webpackbar 13:11:23 ℹ Compiling Client
+webpackbar 13:11:24 ✔ Server: Compiled successfully in 827.87ms
+webpackbar 13:11:24 ✔ Client: Compiled successfully in 793.68ms
+13:11:28 ↻ Updated pages/index.vue
+webpackbar 13:11:28 ℹ Compiling Server
+webpackbar 13:11:28 ℹ Compiling Client
+webpackbar 13:11:29 ✔ Server: Compiled with some errors in 408.18ms
+webpackbar 13:11:29 ✔ Client: Compiled with some errors in 394.98ms
+
+friendly-errors 13:11:29  ERROR  Failed to compile with 2 errors
+
+
+friendly-errors 13:11:29  ERROR  in ./pages/index.vue
+
+friendly-errors 13:11:29 Module Error (from ./node_modules/eslint-loader/index.js):
+
+/home/dev/APP/vue-mastery/real-world-nuxt/pages/index.vue
+  22:6  error  Parsing error: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags  prettier/prettier
+
+✖ 1 problem (1 error, 0 warnings)
+
+friendly-errors 13:11:29 
+ @ ./.nuxt/router.js 7:24-9:3
+ @ ./.nuxt/index.js
+ @ ./.nuxt/client.js
+ @ multi eventsource-polyfill webpack-hot-middleware/client?reload=true&timeout=30000&ansiColors=&overlayStyles=&name=client&path=/__webpack_hmr/client ./.nuxt/client.js
+friendly-errors 13:11:29 
+
+friendly-errors 13:11:29  ERROR  in ./pages/index.vue?vue&type=template&id=2a183b29&
+
+friendly-errors 13:11:29 Module Error (from ./node_modules/vue-loader/lib/loaders/templateLoader.js):
+(Emitted value instead of an instance of Error) 
+
+  Errors compiling template:
+
+  tag <logo> has no matching end tag.
+
+  2  |  <section class="container">
+  3  |    <div>
+  4  |      <logo >
+     |      ^^^^^^^
+  5  |      <h1 cl ass="title">
+  6  |        real-world-nuxt
+
+friendly-errors 13:11:29 
+ @ ./pages/index.vue?vue&type=template&id=2a183b29& 1:0-197 1:0-197
+ @ ./pages/index.vue
+ @ ./.nuxt/router.js
+ @ ./.nuxt/index.js
+ @ ./.nuxt/client.js
+ @ multi eventsource-polyfill webpack-hot-middleware/client?reload=true&timeout=30000&ansiColors=&overlayStyles=&name=client&path=/__webpack_hmr/client ./.nuxt/client.js
+friendly-errors 13:11:29 
+13:11:32 ↻ Updated pages/index.vue
+webpackbar 13:11:32 ℹ Compiling Server
+webpackbar 13:11:32 ℹ Compiling Client
+webpackbar 13:11:33 ✔ Server: Compiled successfully in 513.39ms
+webpackbar 13:11:33 ✔ Client: Compiled successfully in 511.40ms
+13:11:34 ↻ Updated pages/index.vue
+webpackbar 13:11:34 ℹ Compiling Server
+webpackbar 13:11:34 ℹ Compiling Client
+webpackbar 13:11:35 ✔ Server: Compiled successfully in 837.22ms
+webpackbar 13:11:35 ✔ Client: Compiled successfully in 831.85ms
+13:11:38 ↻ Updated pages/index.vue
+webpackbar 13:11:38 ℹ Compiling Server
+webpackbar 13:11:38 ℹ Compiling Client
+webpackbar 13:11:39 ✔ Server: Compiled successfully in 211.74ms
+webpackbar 13:11:39 ✔ Client: Compiled successfully in 209.03ms
+13:11:39 ↻ Updated pages/index.vue
+webpackbar 13:11:39 ℹ Compiling Server
+webpackbar 13:11:39 ℹ Compiling Client
+webpackbar 13:11:39 ✔ Server: Compiled successfully in 487.63ms
+webpackbar 13:11:39 ✔ Client: Compiled successfully in 486.38ms
+13:11:43 ↻ Updated pages/index.vue
+webpackbar 13:11:43 ℹ Compiling Server
+webpackbar 13:11:43 ℹ Compiling Client
+webpackbar 13:11:44 ✔ Server: Compiled successfully in 401.06ms
+webpackbar 13:11:44 ✔ Client: Compiled successfully in 397.89ms
+
+> real-world-nuxt@1.0.0 dev /home/dev/APP/vue-mastery/real-world-nuxt
+> nuxt
+
+13:24:44 ℹ Listening on: http://192.168.111.252:3000/
+13:24:45 ℹ Preparing project for development
+13:24:45 ℹ Initial build may take a while
+13:24:45 ✔ Builder initialized
+13:24:45 ✔ Nuxt files generated
+webpackbar 13:24:48 ℹ Compiling Client
+webpackbar 13:24:48 ℹ Compiling Server
